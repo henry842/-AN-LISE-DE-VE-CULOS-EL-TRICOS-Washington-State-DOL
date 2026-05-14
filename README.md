@@ -1,174 +1,210 @@
-## 📊 Data Storytelling — The Rise of Electric Vehicles
+# 🚗🔋 Electric Vehicle Market Analysis — Washington State
 
-Imagine the EV market as a city que está acordando.
-
-No começo, poucas luzes acesas. Hoje? Um skyline inteiro brilhando.
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-lightblue)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ---
 
-### 🚘 Chapter 1 — The Kings of the Market
+## 🛠️ Tech Stack | Tecnologias Utilizadas
+
+**🇺🇸**
+- Python  
+- Pandas (data manipulation)  
+- Matplotlib & Seaborn (data visualization)  
+- Jupyter Notebook (analysis environment)  
+
+**🇧🇷**
+- Python  
+- Pandas (manipulação de dados)  
+- Matplotlib & Seaborn (visualização)  
+- Jupyter Notebook (ambiente de análise)  
+
+---
+
+## 🎯 Executive Summary | Resumo Executivo
+
+**🇺🇸**
+
+The electric vehicle market is transitioning from early adoption to rapid expansion.  
+This analysis highlights strong growth, technological maturity, and the critical role of public policies.
+
+**🇧🇷**
+
+O mercado de veículos elétricos está saindo da fase inicial e entrando em expansão acelerada.  
+Esta análise mostra crescimento, maturidade tecnológica e forte impacto de políticas públicas.
+
+---
+
+# 🎬 📊 Data Storytelling | Narrativa dos Dados
+
+---
+
+## 🚘 Chapter 1 — Market Leaders | Líderes de Mercado
 
 ![Top Brands](graficos/01_top_marcas.png)
 
-A história começa com dominância.
+**🇺🇸**  
+A highly concentrated market, dominated by a few players. Tesla leads not only in volume, but in influence.
 
-Poucas marcas controlam a maior parte do mercado — e uma se destaca como protagonista.
+**🇧🇷**  
+Um mercado altamente concentrado, dominado por poucas marcas. A Tesla lidera não só em volume, mas em influência.
 
-Tesla não é apenas líder — ela define o ritmo.
-
-Isso revela um mercado ainda concentrado, onde confiança de marca pesa mais do que variedade.
-
-👉 Interpretação:
-- Consumidores preferem segurança a experimentação  
-- O mercado ainda não atingiu maturidade competitiva  
+👉 Insight:
+- Market still favors strong brands  
+- Mercado ainda favorece marcas consolidadas  
 
 ---
 
-### ⚡ Chapter 2 — The Battle for Range
+## ⚡ Chapter 2 — The Range Factor | Autonomia
 
 ![Range](graficos/02_autonomia_marcas.png)
 
-Aqui começa a disputa silenciosa.
+**🇺🇸**  
+Range is the main competitive advantage — reducing uncertainty and increasing adoption.
 
-Autonomia não é só número — é liberdade.
+**🇧🇷**  
+A autonomia é o principal diferencial competitivo — reduz incerteza e aumenta a adoção.
 
-Cada quilômetro extra reduz ansiedade, aumenta confiança e aproxima o consumidor da decisão de compra.
-
-👉 Interpretação:
-- Range é o principal fator psicológico de adoção  
-- Marcas competem mais em tecnologia do que em preço  
+👉 Insight:
+- Technology drives trust  
+- Tecnologia gera confiança  
 
 ---
 
-### 📈 Chapter 3 — Evolution Over Time
+## 📈 Chapter 3 — Evolution | Evolução
 
 ![Range Evolution](graficos/03_evolucao_autonomia.png)
 
-Agora vemos o tempo agir.
+**🇺🇸**  
+Battery range improves consistently over time, signaling technological maturity.
 
-A autonomia cresce ano após ano, quase como uma curva de aprendizado coletivo da indústria.
+**🇧🇷**  
+A autonomia evolui de forma consistente, mostrando maturidade tecnológica.
 
-O que antes era limitação… hoje é padrão.
-
-👉 Interpretação:
-- A barreira tecnológica está desaparecendo  
-- A decisão de compra deixa de ser “funciona?” e passa a ser “vale a pena?”  
+👉 Insight:
+- Tech is no longer a barrier  
+- Tecnologia deixou de ser barreira  
 
 ---
 
-### 🔌 Chapter 4 — The Turning Point
+## 🔌 Chapter 4 — BEV vs PHEV
 
 ![BEV vs PHEV](graficos/04_bev_vs_phev.png)
 
-Aqui acontece a virada.
+**🇺🇸**  
+The market is clearly shifting toward fully electric vehicles.
 
-Os híbridos (PHEVs) foram a ponte.  
-Os elétricos puros (BEVs) são o destino.
+**🇧🇷**  
+O mercado está migrando claramente para veículos 100% elétricos.
 
-E o mercado já escolheu.
-
-👉 Interpretação:
-- O consumidor não quer mais “meio elétrico”  
-- A transição energética já passou do ponto de retorno  
+👉 Insight:
+- Full electrification is inevitable  
+- Eletrificação total é inevitável  
 
 ---
 
-### 📊 Chapter 5 — The Explosion
+## 📊 Chapter 5 — Growth | Crescimento
 
 ![Growth](graficos/05_crescimento_anual.png)
 
-Esse é o momento em que tudo acelera.
+**🇺🇸**  
+The market shows exponential growth behavior.
 
-A curva sobe rápido, quase como um foguete deixando a atmosfera.
+**🇧🇷**  
+O crescimento apresenta comportamento exponencial.
 
-Não é crescimento linear — é exponencial.
-
-👉 Interpretação:
-- O mercado entrou em fase de escala  
-- Ainda estamos longe da saturação  
+👉 Insight:
+- Market is scaling fast  
+- Mercado em rápida expansão  
 
 ---
 
-### 🌆 Chapter 6 — Where It Happens
+## 🌆 Chapter 6 — Geography | Geografia
 
 ![Cities](graficos/06_top_cidades.png)
 
-Nem todo lugar cresce igual.
+**🇺🇸**  
+EV adoption is concentrated in urban areas.
 
-A adoção se concentra nas cidades — onde infraestrutura, renda e incentivo se encontram.
+**🇧🇷**  
+A adoção está concentrada em áreas urbanas.
 
-👉 Interpretação:
-- EVs são, por enquanto, um fenômeno urbano  
-- Regiões fora desse eixo representam oportunidade futura  
+👉 Insight:
+- Infrastructure drives adoption  
+- Infraestrutura impulsiona adoção  
 
 ---
 
-### 💰 Chapter 7 — Breaking the Price Barrier
+## 💰 Chapter 7 — Price | Preço
 
 ![Price](graficos/07_distribuicao_precos.png)
 
-O preço conta outra parte da história.
+**🇺🇸**  
+EVs are becoming more accessible across price ranges.
 
-Antes restrito ao premium, agora o mercado começa a se abrir.
+**🇧🇷**  
+Os EVs estão se tornando mais acessíveis.
 
-Os EVs estão descendo para faixas mais acessíveis.
-
-👉 Interpretação:
-- O mercado está caminhando para massificação  
-- Preço deixa de ser barreira absoluta  
+👉 Insight:
+- Market is moving toward mass adoption  
+- Mercado caminha para massificação  
 
 ---
 
-### 🧩 Chapter 8 — The Invisible Hand
+## 🧩 Chapter 8 — Policy Impact | Incentivos
 
 ![CAFV](graficos/08_elegibilidade_cafv.png)
 
-Por trás de tudo… existe um empurrão invisível.
+**🇺🇸**  
+Government incentives strongly influence adoption.
 
-Os incentivos governamentais não são apenas apoio — são motor de crescimento.
+**🇧🇷**  
+Incentivos governamentais impactam diretamente a adoção.
 
-👉 Interpretação:
-- Política pública molda diretamente o mercado  
-- Sem incentivo, a adoção seria mais lenta  
-
----
-
-## 🎯 Final Story — Connecting the Dots
-
-Se juntarmos todas as peças, a história fica clara:
-
-O mercado de veículos elétricos começou concentrado,  
-cresceu impulsionado por inovação,  
-foi acelerado por políticas públicas,  
-e agora entra em uma fase de expansão massiva.
-
-A tecnologia deixou de ser problema.  
-O consumidor já aceitou a ideia.  
-O crescimento está em curso.
-
-Agora, a próxima batalha não é mais “se” o mercado vai crescer.
-
-É **quem vai dominar esse crescimento**.
+👉 Insight:
+- Policy is a growth engine  
+- Políticas públicas impulsionam o mercado  
 
 ---
 
-## 🧠 Recap (Executive Takeaways)
+# 🧠 Final Story | Conclusão
 
-- 🚘 Mercado ainda concentrado → oportunidade para novos players  
-- ⚡ Autonomia deixou de ser barreira → competição muda de nível  
-- 🔌 BEVs dominam → eletrificação total é inevitável  
-- 📈 Crescimento acelerado → fase de escala  
-- 🌆 Concentração urbana → expansão geográfica é o próximo passo  
-- 💰 Preços caindo → mercado de massa chegando  
-- 🏛️ Incentivos são críticos → política define velocidade  
+**🇺🇸**
+
+The EV market is no longer a question of *if*, but *how fast*.  
+Technology is ready, consumers are adopting, and policies are accelerating everything.
+
+The next phase will be defined by:
+- Infrastructure
+- Pricing
+- Market expansion
 
 ---
 
-## 🚀 Final Insight
+**🇧🇷**
 
-O mercado de EVs não está apenas crescendo.
+O mercado de veículos elétricos não é mais uma questão de *se*, mas de *quão rápido*.  
+A tecnologia está pronta, o consumidor já aderiu e as políticas aceleram o processo.
 
-Ele está sendo **redefinido em tempo real**.
+A próxima fase será definida por:
+- Infraestrutura  
+- Preço  
+- Expansão do mercado  
 
-E quem entender esses sinais agora…  
-vai estar à frente quando o mercado atingir o próximo nível.
+---
+
+# 🚀 Future Improvements | Próximos Passos
+
+- Machine Learning for forecasting  
+- Análise de previsão de crescimento  
+- Clusterização de veículos  
+- Modelagem de mercado  
+
+---
+
+## 👨‍💻 Author
+
+Henry 🚀
