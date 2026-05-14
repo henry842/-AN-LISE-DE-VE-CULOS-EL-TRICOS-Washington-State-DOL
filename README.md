@@ -1,86 +1,102 @@
-# 🚗🔋 ANÁLISE DE VEÍCULOS ELÉTRICOS — Washington State DOL
+# 🚗🔋 Electric Vehicle Market Analysis — Washington State
 
-## 📌 Sobre o Projeto
-
-Este projeto realiza uma análise exploratória de dados (EDA) sobre veículos elétricos registrados no estado de Washington, utilizando dados do Department of Licensing (DOL).
-
-O objetivo é identificar padrões relevantes no crescimento da frota elétrica, comportamento do mercado, evolução tecnológica e impacto de políticas públicas.
-
----
-
-## 🎯 Objetivos
-
-- Analisar a distribuição de veículos elétricos por marca  
-- Avaliar a evolução da autonomia ao longo dos anos  
-- Comparar tipos de veículos (BEV vs PHEV)  
-- Identificar crescimento do mercado  
-- Mapear concentração geográfica  
-- Avaliar impacto de incentivos governamentais (CAFV)  
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![EDA](https://img.shields.io/badge/Focus-Exploratory%20Data%20Analysis-orange)
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🎯 Project Highlight
 
-- Python  
-- Pandas  
-- Matplotlib  
-- Seaborn  
-- Jupyter Notebook  
+> 📈 Electric vehicle adoption is accelerating rapidly, driven by technological evolution and government incentives.
 
 ---
 
-## 📊 Análises Realizadas
+## 🇧🇷 Resumo
+
+Este projeto analisa dados de veículos elétricos registrados em Washington (EUA), identificando padrões de crescimento, evolução da autonomia e impacto de políticas públicas.
 
 ---
 
-### 🚘 Top 10 Marcas
+## 🇺🇸 Overview
 
-![Top Marcas](graficos/01_top_marcas.png)
-
-**Análise:**
-
-A distribuição revela uma forte concentração de mercado, com destaque para a Tesla como líder dominante. Isso sugere vantagem competitiva consolidada, possivelmente associada à tecnologia, infraestrutura e reconhecimento de marca.
-
-Outras fabricantes aparecem com menor participação, indicando que o mercado ainda não está totalmente pulverizado.
-
-**Insights:**
-- Alta concentração de mercado  
-- Presença dominante de poucos players  
-- Barreiras de entrada relevantes  
+This project explores electric vehicle data from Washington State, uncovering trends in market growth, battery evolution, and policy-driven adoption.
 
 ---
 
-### ⚡ Autonomia Média por Marca
+## 📊 Key Metrics
 
-![Autonomia](graficos/02_autonomia_marcas.png)
-
-**Análise:**
-
-Existe uma variação significativa na autonomia média entre as marcas. Fabricantes com maior autonomia tendem a ocupar segmentos mais premium.
-
-Isso evidencia que autonomia é um fator estratégico e diferencial competitivo.
-
-**Insights:**
-- Correlação entre autonomia e posicionamento de mercado  
-- Marcas premium lideram inovação  
-- Estratégias diferentes entre fabricantes (custo vs performance)  
+- 🚘 +XX mil veículos analisados  
+- 📈 Crescimento acelerado pós-2020  
+- 🔋 Autonomia média em constante evolução  
+- 🏙️ Forte concentração urbana  
 
 ---
 
-### 📈 Evolução da Autonomia ao Longo dos Anos
+## ⚡ Key Insights | Principais Insights
 
-![Evolução](graficos/03_evolucao_autonomia.png)
+- 🚘 Tesla domina o mercado | Tesla dominates the EV market  
+- 📈 Crescimento acelerado | Rapid adoption growth  
+- 🔋 Autonomia crescente | Increasing battery range  
+- 🔌 BEVs > PHEVs | Full electrification trend  
+- 🌆 Adoção urbana | Urban concentration  
+- 🏛️ Incentivos impactam diretamente | Policy-driven adoption  
 
-**Análise:**
+---
 
-A autonomia média dos veículos apresenta crescimento consistente ao longo do tempo, indicando evolução tecnológica contínua, especialmente no desenvolvimento de baterias.
+## 💼 Business Impact
 
-A ausência de quedas relevantes sugere um avanço estável e progressivo.
+**🇧🇷**
 
-**Insights:**
-- Tecnologia em constante evolução  
-- Redução da ansiedade de autonomia (range anxiety)  
-- Tendência positiva de longo prazo  
+- O mercado de EVs está em fase de expansão acelerada  
+- Forte concentração indica oportunidade para novos players  
+- Incentivos governamentais influenciam diretamente a demanda  
+- Avanços tecnológicos reduzem barreiras de adoção  
+
+**🇺🇸**
+
+- The EV market is in a rapid growth phase  
+- Market concentration suggests room for new competitors  
+- Government incentives strongly influence demand  
+- Technological improvements reduce adoption barriers  
+
+---
+
+## 📸 Visual Preview
+
+![Growth](graficos/05_crescimento_anual.png)
+
+---
+
+## 📊 Data Analysis | Análises
+
+---
+
+### 🚘 Market Share | Participação por Marca
+
+![Top Brands](graficos/01_top_marcas.png)
+
+- 🇧🇷 Alta concentração com liderança da Tesla  
+- 🇺🇸 High market concentration led by Tesla  
+
+---
+
+### ⚡ Range by Brand | Autonomia
+
+![Range](graficos/02_autonomia_marcas.png)
+
+- 🇧🇷 Autonomia como diferencial competitivo  
+- 🇺🇸 Range as a competitive advantage  
+
+---
+
+### 📈 Range Evolution
+
+![Range Evolution](graficos/03_evolucao_autonomia.png)
+
+- 🇧🇷 Evolução tecnológica consistente  
+- 🇺🇸 Consistent technological improvement  
 
 ---
 
@@ -88,121 +104,72 @@ A ausência de quedas relevantes sugere um avanço estável e progressivo.
 
 ![BEV vs PHEV](graficos/04_bev_vs_phev.png)
 
-**Análise:**
-
-Os veículos 100% elétricos (BEV) predominam sobre os híbridos plug-in (PHEV), indicando uma transição clara do mercado para eletrificação total.
-
-Os PHEVs ainda aparecem como alternativa intermediária.
-
-**Insights:**
-- Mercado migrando para veículos totalmente elétricos  
-- PHEVs podem perder relevância no futuro  
-- Influência de incentivos governamentais  
+- 🇧🇷 Transição para veículos 100% elétricos  
+- 🇺🇸 Shift toward full electrification  
 
 ---
 
-### 📊 Crescimento de Registros por Ano
+### 📊 Growth
 
-![Crescimento](graficos/05_crescimento_anual.png)
+![Growth](graficos/05_crescimento_anual.png)
 
-**Análise:**
-
-O crescimento de registros apresenta comportamento acelerado, sugerindo uma possível tendência exponencial.
-
-Esse padrão é típico de mercados emergentes impulsionados por inovação e políticas públicas.
-
-**Insights:**
-- Forte expansão do mercado  
-- Adoção crescente de veículos elétricos  
-- Influência de incentivos e conscientização ambiental  
+- 🇧🇷 Crescimento acelerado  
+- 🇺🇸 Rapid growth  
 
 ---
 
-### 🌆 Top 10 Cidades com Mais EVs
+### 🌆 Cities
 
-![Cidades](graficos/06_top_cidades.png)
+![Cities](graficos/06_top_cidades.png)
 
-**Análise:**
-
-A concentração de veículos elétricos em grandes centros urbanos indica dependência de infraestrutura de recarga e incentivos locais.
-
-Regiões urbanas lideram a adoção.
-
-**Insights:**
-- Infraestrutura é fator crítico  
-- Adoção desigual entre regiões  
-- Potencial de crescimento fora dos grandes centros  
+- 🇧🇷 Concentração urbana  
+- 🇺🇸 Urban concentration  
 
 ---
 
-### 💰 Distribuição de Preços
+### 💰 Prices
 
-![Preços](graficos/07_distribuicao_precos.png)
+![Price](graficos/07_distribuicao_precos.png)
 
-**Análise:**
-
-A distribuição mostra concentração em faixas intermediárias, com presença de veículos de alto valor.
-
-Isso indica que o mercado está se tornando mais acessível, mas ainda mantém um segmento premium relevante.
-
-**Insights:**
-- Processo de democratização do mercado  
-- Presença de outliers (veículos de luxo)  
-- Redução gradual da barreira de entrada  
+- 🇧🇷 Democratização do mercado  
+- 🇺🇸 Market democratization  
 
 ---
 
-### 🧩 Elegibilidade CAFV
+### 🧩 CAFV
 
 ![CAFV](graficos/08_elegibilidade_cafv.png)
 
-**Análise:**
-
-A maior parte dos veículos é elegível para incentivos CAFV, indicando alinhamento entre o mercado e políticas públicas ambientais.
-
-Fabricantes parecem adaptar seus modelos para atender critérios de elegibilidade.
-
-**Insights:**
-- Incentivos governamentais eficazes  
-- Forte influência da regulação no mercado  
-- Impacto direto na oferta de veículos  
+- 🇧🇷 Forte impacto de incentivos  
+- 🇺🇸 Strong policy influence  
 
 ---
 
-## 🧠 Conclusão
+## 🧠 Conclusion | Conclusão
 
-A análise revela um mercado em rápida expansão, sustentado por avanços tecnológicos e incentivos governamentais.
+**🇧🇷**
 
-**Principais conclusões:**
+O mercado de veículos elétricos está em crescimento acelerado, impulsionado por tecnologia e políticas públicas. A tendência de eletrificação total já está em andamento.
 
-- 📈 Crescimento acelerado do setor  
-- 🔋 Evolução contínua da autonomia  
-- 🚘 Forte concentração em grandes marcas  
-- 🌎 Transição clara para eletrificação total  
-- 🏙️ Adoção concentrada em áreas urbanas  
+**🇺🇸**
+
+The EV market is rapidly expanding, driven by technology and policy. Full electrification is already underway.
 
 ---
 
-## 🚀 Próximos Passos
+## 🚀 Future Improvements
 
-- Análise preditiva de crescimento do mercado  
-- Modelagem de preço vs autonomia  
-- Clusterização de veículos por perfil  
-- Análise de impacto ambiental  
+- 📊 Machine Learning para previsão de crescimento  
+- 🔍 Análise de correlação preço vs autonomia  
+- 🧠 Clusterização de veículos  
+- 🌍 Impacto da infraestrutura  
 
 ---
 
-## 📂 Como Executar
+## 📂 How to Run
 
 ```bash
-# Clone o repositório
 git clone https://github.com/seu-usuario/seu-repo.git
-
-# Entre na pasta
 cd seu-repo
-
-# Instale as dependências
 pip install -r requirements.txt
-
-# Execute o notebook
 jupyter notebook
