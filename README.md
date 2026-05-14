@@ -103,10 +103,6 @@ Os PHEVs ainda aparecem como alternativa intermediária.
 
 ### 📊 Crescimento de Registros por Ano
 
-## 📊 Preview
-
-![grafico](graficos/05_crescimento_anual.png)
-
 ![Crescimento](graficos/05_crescimento_anual.png)
 
 **Análise:**
