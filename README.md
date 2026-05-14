@@ -35,7 +35,7 @@ O objetivo é identificar padrões relevantes no crescimento da frota elétrica,
 
 ### 🚘 Top 10 Marcas
 
-![Top Marcas](images/01_top_marcas.png)
+![Top Marcas](graficos/01_top_marcas.png)
 
 **Análise:**
 
@@ -52,7 +52,7 @@ Outras fabricantes aparecem com menor participação, indicando que o mercado ai
 
 ### ⚡ Autonomia Média por Marca
 
-![Autonomia](images/02_autonomia_marcas.png)
+![Autonomia](graficos/02_autonomia_marcas.png)
 
 **Análise:**
 
@@ -69,7 +69,7 @@ Isso evidencia que autonomia é um fator estratégico e diferencial competitivo.
 
 ### 📈 Evolução da Autonomia ao Longo dos Anos
 
-![Evolução Autonomia](images/03_evolucao_autonomia.png)
+![Evolução](graficos/03_evolucao_autonomia.png)
 
 **Análise:**
 
@@ -86,7 +86,7 @@ A ausência de quedas relevantes sugere um avanço estável e progressivo.
 
 ### 🔌 BEV vs PHEV
 
-![BEV vs PHEV](images/04_bev_vs_phev.png)
+![BEV vs PHEV](graficos/04_bev_vs_phev.png)
 
 **Análise:**
 
@@ -103,7 +103,7 @@ Os PHEVs ainda aparecem como alternativa intermediária.
 
 ### 📊 Crescimento de Registros por Ano
 
-![Crescimento](images/05_crescimento_anual.png)
+![Crescimento](graficos/05_crescimento_anual.png)
 
 **Análise:**
 
@@ -120,7 +120,7 @@ Esse padrão é típico de mercados emergentes impulsionados por inovação e po
 
 ### 🌆 Top 10 Cidades com Mais EVs
 
-![Cidades](images/06_top_cidades.png)
+![Cidades](graficos/06_top_cidades.png)
 
 **Análise:**
 
@@ -137,7 +137,7 @@ Regiões urbanas lideram a adoção.
 
 ### 💰 Distribuição de Preços
 
-![Preços](images/07_distribuicao_precos.png)
+![Preços](graficos/07_distribuicao_precos.png)
 
 **Análise:**
 
@@ -154,7 +154,7 @@ Isso indica que o mercado está se tornando mais acessível, mas ainda mantém u
 
 ### 🧩 Elegibilidade CAFV
 
-![CAFV](images/elegibilidade_cafv.png)
+![CAFV](graficos/08_elegibilidade_cafv.png)
 
 **Análise:**
 
